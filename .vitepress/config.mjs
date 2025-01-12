@@ -6,7 +6,7 @@ export default defineConfig({
   base:"/xmweb/",
   description: "熊猫脚本",
   themeConfig: {
-    logo: 'xm.svg',
+    logo: '/xm.svg',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页',
