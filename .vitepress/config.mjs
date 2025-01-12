@@ -3,10 +3,10 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "熊猫脚本",
-  // base:"/xmweb/",
+  base:"/xmweb/",
   description: "熊猫脚本",
   themeConfig: {
-    logo: '/public/xm.svg',
+    logo: 'xm.svg',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页',
